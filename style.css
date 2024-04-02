@@ -1,0 +1,400 @@
+
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+    a{
+        color: black;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+    .nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: aliceblue;
+        color: black;
+        list-style: none;
+        padding: 15px;
+    }
+    .left{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 25px;
+    }
+    .logo {
+        display: flex;
+        padding-left: 65px;
+        padding-bottom: 0px;
+        gap: 20px;
+    }
+    .right{
+        display: flex;
+        justify-content:flex-end;
+        align-items: center;
+        gap: 25px;
+    }
+    button{
+        padding: 12px;
+        background-color: blue;
+        color: aliceblue;
+        font-size: 15px;
+        border: none;
+        outline: none;
+        border-radius: 10px;
+
+    }
+    strong{
+        font-weight: 700;
+        font-size: 30px;
+    }
+    header{
+        background-color: black;
+        color: aliceblue;
+
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding-top: 65px;
+        padding-bottom: 30px;
+
+    }
+.content div{
+    width: 700px;
+
+}
+.top{
+    font-size: 25px;
+    text-align: center;
+}
+.bottom{
+    font-size: 16px;
+    text-align: center;
+    
+}
+.box-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box-button button{
+    font-size: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 200px;
+
+}
+
+span{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}    
+.email-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 10px;
+
+}
+.email-container button{
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+
+}
+.email-container button:hover{
+    
+    background-color: hsla(34, 3%, 54%, .2);
+
+}
+.email-container span textarea{
+    padding: 15px;
+    background-color: black;
+    color: grey;
+    font-size: 17px;
+    resize: none;
+}
+.main-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    font-size: 20px;
+}
+.feature-grid{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 30px;
+
+}
+.feature-card{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.feature-title{
+    font-size: 28px;
+    font-weight: 900;
+    padding-bottom: 30px;
+}
+.feature-description{
+    font-size: 15px;
+}
+.new-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.new-button button{
+    background-color: white;
+    color: blue;
+    border-radius: 20px;
+}
+.drop-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+}
+.drop-box h1{
+    font-size: 40px;
+}
+.drop-box-text{
+    width: 785px;
+    font-size: 18px;
+}
+.drop-box button{
+    display: flex;
+    padding-left: 40px;
+    padding-right: 40px;
+    gap: 25px;
+    font-size: 20px;
+
+}
+.drop-box button:hover{
+    background-color: rgb(84, 84, 237);
+}
+.title-dropbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.use-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 30px;
+}
+.use-card{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: grey;
+    padding: 20px;
+}
+.use-image{
+    width: 100%;
+} 
+.use-card img{
+    width: 100%;
+}
+.use-title{
+    font-size: 30px;
+    font-weight: 600;
+    align-self: self-start;
+}
+.use-content{
+    font-weight: 300;
+}
+.use-container button{
+    display: flex;
+    align-self: start;
+    padding: 20px;
+    gap: 20px;
+}
+.use-container button:hover{
+    background-color: rgb(133, 133, 244);
+}
+.count{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.choice-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    padding: 20px;
+
+}
+.app{
+    display: flex;
+    flex-direction: column;
+    width: 28%;
+    gap: 20px;
+    padding: 20px;
+}
+.app h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+.app h2{
+    font-size: 23px;
+    font-weight: 500;
+
+}
+.formula{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    width: 100%;
+    padding: 40px;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    background-color: rgb(20, 19, 19);
+}
+.formula .logo{
+    padding: 40px;
+    background-color: white;
+}
+.team-text{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    gap: 20px;
+}    
+.idea{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    flex-direction: column;
+    gap: 20px;
+    background-color: white;
+    color: black;
+    padding-top: 50px;
+    padding-bottom: 30px;
+
+}
+.idea ins{
+    font-size: 600;
+    gap:20px;
+}
+.radio-button form{
+    display: flex;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    gap: 20px;
+    background-color: white;
+    color: black;
+}
+.starter-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    gap: 30px;
+
+}
+.basic{
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #faf9f7;
+    color: black;
+    width: 20%;
+}
+.basic button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+
+}
+.get-started{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+padding: 100px;
+gap: 130px;
+background-color: #1e1919;
+}
+.get-started h1{
+    font-size: 50px;
+}
+.get-started button{
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+    font-size: 20px;
+}
+.products{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    gap: 20px;
+
+}
+.dropbox-content{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+}
+.logo{
+    display: flex;
+   padding-left: 65px;
+   padding-bottom: 30px;
+   gap: 20px;
+}
+.logo i{
+    font-size: 20px;
+   
+}
+.ruler{
+    height: 2px;
+    width: 100px;
+    background-color: gray;
+    margin-left: 60px;
+}
+.united{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    gap: 15px;
+}
